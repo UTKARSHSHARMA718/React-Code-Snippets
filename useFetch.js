@@ -23,6 +23,6 @@ export const useFetch = (url) => {
       }
     };
     getData();
-  }, []);
+  }, [url]);
   return [data, error, isLoading];
 };
